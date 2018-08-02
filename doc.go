@@ -10,7 +10,7 @@ Package serial is a cross-platform serial library for the go language.
 The canonical import for this library is go.bug.st/serial.v1 so the import line
 is the following:
 
-	import "go.bug.st/serial.v1"
+	import "github.com/willtoth/go-serial"
 
 It is possible to get the list of available serial ports with the
 GetPortsList function:
@@ -110,4 +110,4 @@ Unfortunately the USB enumeration package for darwin (MacOSX) requires cgo
 to access the IOKit framework. This means that if you need USB enumeration
 on darwin you're forced to use cgo.
 */
-package serial // import "go.bug.st/serial.v1"
+package serial // import "github.com/willtoth/go-serial"
